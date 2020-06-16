@@ -1,11 +1,11 @@
-cd @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=MuseoModerno&display=swap');
 *{
   padding: 0;
   margin: 0;
 }
 
 .m-f{
+  	font-family: 'MuseoModerno', cursive;
   font-family: 'Aclonica', sans-serif;
   text-transform: uppercase;
 }
@@ -185,7 +185,7 @@ footer{
 
   .bucket{
     width: 100%;
-    margin: 80px 3%;
+    margin: 50px 10%;
   }
   .contact-section h1{
     margin-bottom: 5vh;
@@ -242,15 +242,12 @@ padding-bottom: 10vh;
     margin-top: -50px;
   }
 
-  /* input[type='text'], input[type=email], textarea{
+    /* input[type='text'], input[type=email], textarea{
     width: 78%;
     padding: 12px;
   } */
    .contact-section div{
-    padding: 10px 3%;
+    padding: 15px 6%;
     align-items: center;
   }
-}
-@media screen and (max-width:1000px){
-
 }
