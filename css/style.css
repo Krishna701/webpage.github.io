@@ -173,7 +173,7 @@ footer{
   }
 
   .services{
-    height: 100vh;
+    height: 110vh;
     clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
   }
 
@@ -185,7 +185,7 @@ footer{
 
   .bucket{
     width: 100%;
-    margin: 50px 10%;
+    margin: 50px 1%;
   }
   .contact-section h1{
     margin-bottom: 5vh;
@@ -194,60 +194,63 @@ footer{
     padding: 20px;
   }
 }
-
-@media screen and (max-width: 600px) {
-
-.header-content h1, .contact-section h1, .intro-text h1 {
+@media screen and (max-width: 425px){
+ .header-content{
+    line-height: 30px;
+  }
+  .container{
+    line-height:40px;
+  }
+.header-content h1, .intro-text h1, .contact-section h1{
   font-size: 30px;
 }
 .header-content h2{
-  font-size: 17px;
-padding-bottom: 10vh;
+  font-size: 14px;
+  margin: 20px;
+  line-height:1.6;
 }
-.header-content h2 span{
-  line-height:normal;
-  /* padding-top: 20px; */
+.btn{
+  display: grid;
+  padding: 10px 20px;
+  margin-bottom: 20px;
 }
 .services{
-  height: 120vh;
+  height: 130vh;
+  clip-path: polygon(0 0, 15% 0, 50% 3%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
 }
-.contact-section h1{
-  padding-bottom: 50px;
-}
-}
-@media screen and (max-width: 400px){
-  .header-content h1, .intro-text h1, .contact-section h1{
-    font-size: 24px;
-  }
-  .header-content h2{
-    font-size: 12px;
-  }
-  .container{
-    width: 80%;
-    margin: 0 auto;
-  }
-  .bucket p{
+ .contact-section div{
+   padding: 15px 6%;}
+ }
+  /* @media screen and (max-width: 400px){
+   .header-content h1, .intro-text h1, .contact-section h1{
+     font-size: 20px;
+   }
+   .header-content h2{
+     font-size: 12px;
+   }
+   .container{
+     width: 80%;
+     margin: 0 auto;
+   }
+   .btn{
+     display: block;
+     padding: 5px 5px;
+     margin: 30px;
+   }
+   .services{
+     clip-path: polygon(0 0, 15% 0, 50% 4%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
+     height: 120vh;
+     margin: 0;
+   }
+   .service-content{
+     display: block;
+     margin-top: -80px;
+     margin:-80px 3%;
+     text-align: justify;
 
-  }
-  .btn{
-    display: block;
-    padding: 5px 5px;
-    margin: 30px;
-  }
-  .services{
-    clip-path: polygon(0 0, 15% 0, 50% 4%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
-    height: 120vh;
-    margin: 0;
-  }
-  .service-content{
-    display: block;
-    margin-top: -80px;
-    margin:-80px 3%;
-    text-align: justify;
-
-  }
-  .contact-section div{
-    padding: 15px 6%;
-    align-items: center;
-  }
-}
+   }
+   .contact-section div{
+     padding: 15px 6%;
+     align-items: center;
+   }
+ } */
