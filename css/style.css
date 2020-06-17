@@ -194,7 +194,7 @@ footer{
     padding: 20px;
   }
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 480px){
  .header-content{
     line-height: 30px;
   }
@@ -221,7 +221,7 @@ footer{
  .contact-section div{
    padding: 15px 6%;}
  }
-  /* @media screen and (max-width: 400px){
+   @media screen and (max-width: 400px){
    .header-content h1, .intro-text h1, .contact-section h1{
      font-size: 20px;
    }
@@ -253,4 +253,4 @@ footer{
      padding: 15px 6%;
      align-items: center;
    }
- } */
+ }
